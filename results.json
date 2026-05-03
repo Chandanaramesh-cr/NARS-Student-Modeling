@@ -1,0 +1,161 @@
+{
+  "strong": {
+    "NARS": {
+      "metrics": {
+        "model": "NARS",
+        "mae": 0.0425,
+        "convergence": 6.33,
+        "misconception": 1.0,
+        "stability": 0.0142
+      },
+      "final": {
+        "fraction_basics": 0.9963,
+        "fraction_addition": 0.93019284,
+        "fraction_multiplication": 0.9300935800000001,
+        "fraction_division": 0.93019284,
+        "decimal_conversion": 0.86398642,
+        "percent_problems": 0.7976807400000001
+      }
+    },
+    "BKT": {
+      "metrics": {
+        "model": "BKT",
+        "mae": 0.095,
+        "convergence": 12.67,
+        "misconception": 1.0,
+        "stability": 0.0
+      },
+      "final": {
+        "fraction_basics": 0.9999999057194975,
+        "fraction_addition": 0.9999999060055024,
+        "fraction_multiplication": 0.9999999023359889,
+        "fraction_division": 0.9999999986781953,
+        "decimal_conversion": 0.9999999979242464,
+        "percent_problems": 0.9999999961667846
+      }
+    },
+    "Rule-Based": {
+      "metrics": {
+        "model": "Rule-Based",
+        "mae": 0.0967,
+        "convergence": 9.67,
+        "misconception": 1.0,
+        "stability": 0.0964
+      },
+      "final": {
+        "fraction_basics": 0.9958476138396999,
+        "fraction_addition": 0.6646675346709998,
+        "fraction_multiplication": 0.90738966043,
+        "fraction_division": 0.8886257425299999,
+        "decimal_conversion": 0.6940680197709999,
+        "percent_problems": 0.8083430267015097
+      }
+    }
+  },
+  "struggling": {
+    "NARS": {
+      "metrics": {
+        "model": "NARS",
+        "mae": 0.0785,
+        "convergence": 10.83,
+        "misconception": 1.0,
+        "stability": 0.0413
+      },
+      "final": {
+        "fraction_basics": 0.46684716000000004,
+        "fraction_addition": 0.40074,
+        "fraction_multiplication": 0.40074,
+        "fraction_division": 0.13601357999999997,
+        "decimal_conversion": 0.53354988,
+        "percent_problems": 0.33493061999999996
+      }
+    },
+    "BKT": {
+      "metrics": {
+        "model": "BKT",
+        "mae": 0.2545,
+        "convergence": 15.0,
+        "misconception": 0.8333,
+        "stability": 0.1429
+      },
+      "final": {
+        "fraction_basics": 0.430729855627626,
+        "fraction_addition": 0.12212567183701531,
+        "fraction_multiplication": 0.11560535506638267,
+        "fraction_division": 0.9107045538084427,
+        "decimal_conversion": 0.13116328571829275,
+        "percent_problems": 0.11428571432584
+      }
+    },
+    "Rule-Based": {
+      "metrics": {
+        "model": "Rule-Based",
+        "mae": 0.2112,
+        "convergence": 15.0,
+        "misconception": 0.8333,
+        "stability": 0.116
+      },
+      "final": {
+        "fraction_basics": 0.5967572376989999,
+        "fraction_addition": 0.05345785851069997,
+        "fraction_multiplication": 0.6878366703122099,
+        "fraction_division": 0.39324204663029994,
+        "decimal_conversion": 0.1958162742696999,
+        "percent_problems": 0.4688594059592999
+      }
+    }
+  },
+  "misconception": {
+    "NARS": {
+      "metrics": {
+        "model": "NARS",
+        "mae": 0.0904,
+        "convergence": 11.67,
+        "misconception": 1.0,
+        "stability": 0.0212
+      },
+      "final": {
+        "fraction_basics": 0.86398642,
+        "fraction_addition": 0.13601357999999997,
+        "fraction_multiplication": 0.79758148,
+        "fraction_division": 0.13611283999999996,
+        "decimal_conversion": 0.9963,
+        "percent_problems": 0.9300935800000001
+      }
+    },
+    "BKT": {
+      "metrics": {
+        "model": "BKT",
+        "mae": 0.2324,
+        "convergence": 12.5,
+        "misconception": 0.8333,
+        "stability": 0.0702
+      },
+      "final": {
+        "fraction_basics": 0.9999999689961442,
+        "fraction_addition": 0.8590498191135952,
+        "fraction_multiplication": 0.9999969062537457,
+        "fraction_division": 0.1144382723411079,
+        "decimal_conversion": 0.9998815916940494,
+        "percent_problems": 0.9999999961648882
+      }
+    },
+    "Rule-Based": {
+      "metrics": {
+        "model": "Rule-Based",
+        "mae": 0.1822,
+        "convergence": 14.0,
+        "misconception": 0.8333,
+        "stability": 0.0732
+      },
+      "final": {
+        "fraction_basics": 0.8295129901177898,
+        "fraction_addition": 0.004152386160299997,
+        "fraction_multiplication": 0.9886190722177899,
+        "fraction_division": 0.37796198022899996,
+        "decimal_conversion": 0.5347872841715099,
+        "percent_problems": 0.9452964256412097
+      }
+    }
+  }
+}
