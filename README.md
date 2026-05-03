@@ -4,7 +4,7 @@ Adaptive student knowledge tracking using Non-Axiomatic Logic (NAL) belief revis
 
 ## What this is
 
-Standard student models like Bayesian Knowledge Tracing (BKT) work fine when a student is consistently right or consistently wrong. They break down when a student has a *misconception* — they get some questions right but fail on specific problem types. This project tests whether NAL-based belief revision can handle that case better.
+Standard student models like Bayesian Knowledge Tracing (BKT) work fine when a student is consistently right or consistently wrong. They break down when a student has a *misconception*  they get some questions right but fail on specific problem types. This project tests whether NAL-based belief revision can handle that case better.
 
 The core idea: every concept gets a belief `<f, c>` where `f` is how often the student answers correctly and `c` is how much evidence we have. When a new answer comes in, the NAL revision rule merges old and new evidence mathematically, without needing to retrain or reset anything.
 
